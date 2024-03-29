@@ -3,3 +3,86 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Urbanist", sans-serif;
+  background-color: #f4f6f8;
+  color: #0f0b2e;
+}
+
+nav {
+  background-color: white;
+  padding: 10px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0f0b2e;
+}
+
+nav button {
+  color: white;
+  background-color: #5a45fe;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.container {
+  padding: 0 150px;
+}
+
+.first {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.first h1 {
+  font-size: 68px;
+  font-weight: 600;
+}
+
+.first p {
+  font-size: 19px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 40px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 23px;
+}
+
+.rating p {
+  font-size: 12px;
+  padding: 0;
+}
