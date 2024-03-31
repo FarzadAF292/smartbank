@@ -120,3 +120,29 @@ nav button {
   font-size: 30px;
   color: #ccc5ff;
 }
+
+.manage {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 0 50px;
+}
+
+.list-box h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.listOfManage {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.listOfManage span {
+  font-size: 20px;
+}
