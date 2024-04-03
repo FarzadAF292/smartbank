@@ -146,3 +146,21 @@ nav button {
 .listOfManage span {
   font-size: 20px;
 }
+
+.steps {
+  background-color: white;
+  padding: 70px 0;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.steps span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.steps h1 {
+  font-size: 56px;
+  font-weight: 500;
+}
